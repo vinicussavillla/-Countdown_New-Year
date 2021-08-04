@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contagem regressiva para o ano novo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="video-container">
+
+            
+            <video autoplay muted loop>
+                <source src="vd/Town Near a Sea.mp4" type="video/mp4">
+            </video>
+        </div>
+      
+        <div class="linha">Contagem regressiva </div>
+        <div class="video-overlay">
+            <h1> <span>  </span> Ano Novo em...<span> </span> </h1>
+            <p>⠀</p>
+            <p>⠀</p>
+            <p>⠀</p>
+      
+        </div>
+    </div>
+
+        <div class="video-overlay">
+        </div>
+          
+        <span id="date_time"></span>
+        <script type="text/javascript">window.onload = date_time('date_time');</script>
+
+           <ul class="countdown">
+            <li  id="days">00</li>
+            <div style="color: rgb(236, 25, 25)">Dia(s)</div>
+            <li  id="hours">00</li>
+            <div style="color: rgb(212, 36, 36)">Horas</div>
+            <li  id="minutes">00</li>
+            <div style="color: rgb(226, 26, 26)">Minutos</div>
+            <li  id="seconds">00</li>
+            <div style="color: rgb(240, 27, 27)">Segundos</div>
+           </ul>
+            
+            <script src="app.js"></script>
+
+    </div>
+
+</body>
+</html>

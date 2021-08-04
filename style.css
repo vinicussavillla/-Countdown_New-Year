@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+html,body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    overflow: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 56.25vw;
+    min-width: 177.6vh;
+    min-height: 100vh;
+    transform: translate(-50%, -50%);
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-transform: uppercase;   
+}
+
+
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    margin: 0;
+    align-items: left;
+    justify-content: center;
+    
+}
+
+h1 span{
+
+    color: #6d63e0;
+}
+
+p{
+    margin-top: 10px;
+    font-weight: 100;
+    text-decoration: capitalize;
+}
+
+ li {
+    list-style: none;   
+}
+
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(auto-left, minmax(100, 100));
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+     
+}
+  
+.countdown li {
+    font-family: 'Oswald', sans-serif;
+    padding: 1rem;
+    color: #4b8ab1;
+    background: rgb(47, 52, 54);
+    border-radius:  5px;
+    box-shadow: 0 1px 1px rgb(63, 151, 192);
+    text-align: center;
+    justify-content: center;
+}
+
+.linha1 {
+    color: rgb(189, 142, 47);   
+}
+
+
+.linha  {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-style: normal;
+    color: rgb(59, 58, 55);
+    box-shadow: 0 1px 1px rgb(33, 113, 150);
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+}
+
