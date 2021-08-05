@@ -24,28 +24,4 @@ const updateCountdown = () => {
     
   
 }
- var now = new Date();
-      var today = now.getDay();
-      var startTime = new Date();
-      startTime.setHours(00);
-      startTime.setMinutes(00);
-      startTime.setSeconds(00);
-      var endTime = new Date();
-      endTime.setHours(09);
-      endTime.setMinutes(00);
-      endTime.setSeconds(00);
-      var on = '<video src="">';
-      var off = '<img src="">';
-
-
-      if ((today > 0) && (today < 6) && (now > startTime) && (now < endTime))
-      {document.write(on);}
-      else
-      {document.write(off);}
-
-setInterval(updateCountdown, 1000)
-
-dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
-monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "agosto", "outubro", "novembro", "dezembro")
-now = new Date
-document.write ("<h3> Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". </h1>")
+ 
