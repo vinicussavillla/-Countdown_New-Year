@@ -24,4 +24,6 @@ const updateCountdown = () => {
     
   
 }
+
+setInterval(updateCountdown, 1000) 
  
